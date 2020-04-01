@@ -1,0 +1,77 @@
+h1{
+	color: red;
+}
+body{
+	background-image: url(../image/fond.jpg);
+}
+.champ
+{
+	height: 350px;
+	width: 400px;
+	display: flex;
+	justify-content: space-between;
+
+}
+.chh
+{
+    height: 413px;
+	width: 620px;
+	display: flex;
+	justify-content: space-between;
+	flex-grow: unset;
+
+}
+.ch{
+	height: 413px;
+	width: 50%;
+	display: flex;
+	justify-content: space-around;
+}
+.fot
+{
+
+	float:style:right;
+}
+.cch
+{
+	height: 413px;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+
+
+}
+.headd{
+	background: url("https://cdn.pixabay.com/photo/2020/02/13/06/11/grand-hotel-sopot-4844621_1280.jpg");
+	background-size: cover;
+	height: 500px;
+	margin-top: 0;
+
+}
+.hotte{
+	background: url("https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2019/04/29/1111/Hotel-du-Palais-Biarritz-P027-Swimming-Pool.jpg/Hotel-du-Palais-Biarritz-P027-Swimming-Pool.16x9.jpg?imwidth=1920");
+	background-size: cover;
+	height: 500px;
+
+}
+
+
+.bi
+{
+font-size: 22px;
+text-shadow: 15%;
+text-align: center;
+
+}
+.x{
+font-size: 22px;
+text-shadow: 15%;
+text-align: center;
+}
+.hea{
+	background: url("https://lh3.googleusercontent.com/proxy/e_yQH9m2ftMX2D80M3rxVCOG4ewPg1hCAAofz5W-_EW1h2At42kDWrzQklXrbilYxgnWgui-zWu_v6vuZWRF_bGxvlWBK8KSjpGcI7Yzmqn7d0Wp6yLh0SZpZWO3z4OiM8ongIIFBPvmVEQ1");
+	background-size: cover;
+	height: 500px;
+	margin-top: 0;
+
+}
