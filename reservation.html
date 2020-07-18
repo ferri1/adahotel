@@ -1,105 +1,206 @@
 <!DOCTYPE html>
-
-<html>
-    <head>
+<head>
 	<meta charset="utf-8">
-	<title>reservation</title>
-    <link rel="stylesheet" href="assets/css/ni.css">
-    </head>
+		<link rel="stylesheet" href="assets/css/style.css">
+			<link href="https://fonts.googleapis.com/css?family=Lobster+Two|Lobster&display=swap" rel="stylesheet">
+				<script src="https://kit.fontawesome.com/39ca2ad730.js" crossorigin="anonymous"></script>
+					<link rel="shortcut icon" href="assets/images/icones/favicon.ico" type="image/x-icon">
+					<link rel="icon" href="assets/images/icones/favicon.ico" type="image/x-icon">
+						<title>ADAhotel.com</title>
+
+
+</head>
+
 <body>
+			<div id="bloc_page">
+
+<!--/*"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+""""""""""""""""""""""""""""""HEADER"""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""-->
+
 <header>
-    <nav> 
-    	<div class="menu">
-            <ul class="headd">
-                <li><a href="index.html">Acceuil</a></li>
-                <li><a href="chambres.html">Chambres</a></li>
-                <li><a href="reservation.html">Reservation</a></li>
-                <li><a href="quartier.html">Quartier</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
+		<nav id="menu">
+			<ul>
+				<li><a href="index.html">Accueil</a></li>
+				<li><a href="chambres.html">Nos Chambres</a></li>
+				<li><a href="reservation.html">Réservation</a></li>
+				<li><a href="services.html">Nos Servives</a></li>
+				<li><a href="quartier.html">Localisation</a></li>
+				<li><a href="contact.html" target="blank">Nous Contacter</a></li>
+			</ul>
+		</nav>
+
+		<section class="cover">
+			<div class="title">
+				<h1>Adahotel</h1>
+					<h2>hôtel insolite et haut de gamme</h2>
+			</div>
+					<div id="star">
+						  <img src="assets/images/hotel/star.png"/>
+							<img src="assets/images/hotel/star.png"/>
+							<img src="assets/images/hotel/star.png"/>
+					</div>
+
+		</section>
+
+
 </header>
-    <h1>Reservation</h1>
 
+<main>
+<!--/*"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+""""""""""""""""""""""""""""""TITRE PAGE"""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""-->
+   <div class="button_reservation">
+	<h2><a href="reservation.html">Réservez votre séjour en ligne</a></h2>
+</div>
 
-<div class="bloc">
+<!--/*"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+""""""""""""""""""""""""""""""DESCRIPTION CHAMBRES"""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""-->
 
-    <div class="xx">
-        <div class="xx">
-    <p class="xxx">Information personnelles</p>
-    <input id="enfants"type="checkbox" name="" value=""><label for="enfants">Enfants moins de 12ans</label> 
-    <input id="homme"type="checkbox" name="" value=""><label for="homme">Homme</label>
-    <input id="femme"type="checkbox" name="" value=""><label for="femme">Femme</label>
-    <input id="animaux"type="checkbox" name="" value=""><label for="animaux">Animaux</label><br/>
-    nom<input type="" name="" placeholder="nom">
-    prenom<input type="" name="" placeholder="prenom"><br/>
-    adresse<input type="" name="" placeholder="adresse">
-    ville<input type="" name="" placeholder="ville"><br/>
-    code postal<input type="" name="" placeholder="code postal"><br/>
-    numbre de personne<input type="" name="" placeholder="numbre"><br/>
-    Fixe<input type="number" name=""><br/>
-    Portable<input type="number" name="">
-    e-mail<input type="email" name="" value="" placeholder="email"><br/>
-        </div>
-        <div class="xx">
-    <p class="xxx">Demande de réservation</p>
-    <select class="options" name="">
-    <option value="">chambre1</option>
-    <option value="">chambre2</option>
-    <option value="">chambre3</option>
-    </select>
-    nombre de chambre<input type="nombre" name="nombre de chambre"></br>
-    Arrivée<input type="date" name="arivee">
-    Départ<input type="date" name="depart"><br/>
-    Paiement<input type="" name="number" placeholder="carte bleu"></br>
-        </div> 
-    </div>
+<section class="room_list">
 
-    <div>
-        <h3 class="bi"><em>vous le regrettez jamais!!!</em>Reservé aujourd'hui demain ca sera deja plein, un hotel de Reve</h3>
-        <img  class="cch" src="https://cdn.pixabay.com/photo/2017/06/07/08/56/girl-2379705_1280.jpg">  
-    </div>
+	<h2>Nos chambres insolites et haut de gamme</h2>
 
+	<table id="room_table">
+			<thead>
+					<div id="title_table">
+							<tr>
+								<th> Chambre Mari</th>
+								<th> Chambre Elis </th>
+								<th> Chambre Dana </th>
+							</tr>
+				 </div>
 
-    
-    <div>
-    <p class="x"><em>trouvé notre adresse ici</em></p>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.4025361289764!2d2.3818376147876514!3d48.850534009215444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e6720bf82b0bc5%3A0x5546f20e31854258!2s1%20Rue%20de%20Montreuil%2C%2075011%20Paris!5e0!3m2!1sfr!2sfr!4v1581346395161!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-    </div>
+			</thead>
 
+			<tfoot id="footer_table">
+					<tr>
+							<td> 60€/nuit </td>
+							<td> 75€/nuit</td>
+							<td> 150€/nuit</td>
+					</tr>
+			</tfoot>
 
+			<tbody>
+				<tr>
+					<td> Lit simple </td>
+					<td> Lit double </td>
+					<td> Lit royal </td>
+			</tbody>
+
+		</table>
+</section>
 
 
 
+<!--/*"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+""""""""""""""""""""""""""""""INFOS RESERVATION"""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""-->
+
+	<section class="reservationForm">
+				<form>
+					<fieldset>
+						<h2>Vos coordonnées</h2>
+						<ul>
+							<li><label>Prénom : </label><input type="text" name="prénom" value=""></li>
+							<li><label>Nom : </label><input type="text" name="nom" value=""></li>
+							<li><label for="woman">Femme </label><input type="radio" name="gender" value="femme" id="woman">
+							<label for="man">Homme </label><input type="radio" name="gender" value="homme" id="man">
+							<label for="nonbinaire">Non-binaire </label><input type="radio" name="gender" value="nonbinaire" id="nonbinaire"></li>
+							<li><label>E-mail : </label><input type="email" name="" value=""></li>
+							<li><label>Téléphone : </label><input type="tel" name="" value=""></li>
+							<li><label>Copie de votre carte d'identité ou passeport : </label><input type="file" name="" value=""></li>
+							<li><label>Commentaire : </label></br><textarea name="name" rows="2" cols="100" placeholder="texte"></textarea></li>
+							<li><h3>Carte de fidélité :</h3>
+								<label for="oui">Oui </label><input type="radio" name="carte" value="oui" id="oui">
+								<label>Numéro : </label><input type="text" name="numero" value=""></br>
+								<label for="non">Non </label><input type="radio" name="carte" value="oui" id="non"></li>
+							<li><h3>Code promo :</h3>
+								<label for="oui">Oui </label><input type="radio" name="code" value="oui" id="oui">
+								<label>Numéro : </label><input type="text" name="numero" value=""></br>							<label for="non">Non </label><input type="radio" name="code" value="oui" id="non">
+							</li>
+						</ul>
+						<p class="center"><a href="#" class="myButton">Valider</a></p>
+					</fieldset>
+					<fieldset>
+						<h2>Votre séjour</h2>
+						<ul>
+							<li><label>Date d'arrivée : </label><input type="date" name="date" value=""></li>
+							<li><label>Adultes : </label><input type="number" name="adultes" value=""></li>
+							<li><label>Enfants de moins de 12 ans : </label><input type="number" name="enfants" value=""></li>
+							<li><label>Nombre de nuitées : </label><input type="number" name="nombredenuitees" value=""></li>
+							<li><h3>Animal de compagnie :</h3>
+								<input type="checkbox" name="animaldecompagnie" value="chat"><label> chat</label>
+								<input type="checkbox" name="animaldecompagnie" value="chien"><label> chien</label>
+								<input type="checkbox" name="animaldecompagnie" value="rongeur"><label> rongeur</label></li>
+
+								<div class="room_choice">
+										<h3>Choix de votre chambre</h3>
+										<form class="" action="index.html" method="post">
+											<select class="" name="Chambres">
+												<option value="Mari">Mari</option>
+												<option value="Elis">Elis</option>
+												<option value="Dana">Dana</option>
+											</select><br/>
+										</form>
+								</div>
+
+
+						<p class="center"><a href="#" class="myButton">Vérifier la disponibilité</a></p>
+					</fieldset>
+					<fieldset>
+						<h2>Paiement</h2>
+						<ul>
+							<li>
+								<h3>Informations CB</h3>
+								<legend>Type de carte bancaire</legend>
+								<ol>
+									<li><input id=visa name=type_de_carte type=radio><label for=visa>VISA</label></li>
+									<li><input id=amex name=type_de_carte type=radio><label for=amex>AmEx</label></li>
+									<li><input id=mastercard name=type_de_carte type=radio><label for=mastercard>Mastercard</label></li>
+								</ol>
+							</li>
+							<li><label for=numero_de_carte : >N° de carte : </label><input id=numero_de_carte name=numero_de_carte type=number required></li>
+							<li><label for=date_de_validite>Date de validité : </label><input type="month" name="start" min="2020-03" value="2022-05"></li>
+							<li><label for=securite>Code sécurité : </label><input id=securite name=securite type=number placeholder="Cryptogramme" required></li>
+							<li><label for=nom_porteur>Nom du porteur : </label><input id=nom_porteur name=nom_porteur type=text placeholder="Même nom que sur la carte"></li>
+						</ul>
+						<p class="center"><a href="#" class="myButton">Je valide le règlement de mon séjour</a></p>
+					</fieldset>
+				</form>
+			</section>
+</main>
+<!--/*"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+""""""""""""""""""""""""""""""FOOTER"""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""-->
 
 
 
+<footer>
+<section id="contact">
+				<div id="hotel_infos">
+						<div class="address">
+							<p id="adahotel">ADA HOTEL</p>
+							<p>15 Rue Martin Garat</p>
+							<p>75020 Paris</p>
+						</div>
 
+						<div class="number_email">
+							<p><a href="tel:0976898800">07.67.88.83.99</a><p>
+							<p><a href="mailto:lynda@adahotel.com">lynda@adahotel.com</a><p>
 
+							<ul class="social">
+								<li><a href="#"><img src="assets/images/social/facebook.png" alt="facebook_adahotel"/></a></li>
+								<li><a href="#"><img src="assets/images/social/instagram.png" alt="instagram_adahotel"/></a></li>
+								<li><a href="#"><img src="assets/images/social/twitter.png" alt="twitter_adahotel"/></a></li>
+							</ul>
+						</div>
+						<div >Copyrights<br>Lynda FERRI </div><div>Mentions légales<br> 2020</div>
+				</div>
+</section>
+</footer>
 
-
-
-
-
-
-
-
-
-
-
-
-    <footer class="foot">
-
-    <div style="background-color: red; font-size:20px; padding: 20px; padding-left: 40px; margin: 60px; text-align: center; ">
-        <div>adresse 60 rue de montreuil 75011</div>     <div>cantacte au 07 06 05 04 03</div>       <div>email:hotel01@gmail.com</div>
-        <div >Copyrighets</div><div>Mentions légales</div><div class="fot">
-        <img src="assets/image/kayak.jpg"><img src="assets/image/BO.png"><img src="assets/image/fac.png">
-        </div>
-
-    </footer>
-    
 
     </body>
     </html>

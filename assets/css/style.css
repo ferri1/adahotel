@@ -1,0 +1,640 @@
+/*"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+""""""""""""""""""""""""""""""CSS RESET"""""""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""*/
+    /* http://meyerweb.com/eric/tools/css/reset/
+       v2.0 | 20110126
+       License: none (public domain)
+    */
+
+    html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    b, u, i, center,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, embed,
+    figure, figcaption, footer, header, hgroup,
+    menu, nav, output, ruby, section, summary,
+    time, mark, audio, video {
+    	margin: 0;
+    	padding: 0;
+    	border: 0;
+    	font-size: 100%;
+    	font: inherit;
+    	vertical-align: baseline;
+    }
+    /* HTML5 display-role reset for older browsers */
+    /*article, aside, details, figcaption, figure,
+    footer, header, hgroup, menu, nav, section {
+    	 display: block; */
+    }
+    body {
+    	line-height: 1;
+    }
+
+    ol, ul {
+    	list-style: none;
+    }
+    blockquote, q {
+    	quotes: none;
+    }
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+    	content: '';
+    	content: none;
+    }
+    table {
+    	border-collapse: collapse;
+    	border-spacing: 0;
+    }
+
+/*"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+""""""""""""""""""""""""""""""POLICE"""""""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""*/
+
+#bloc_page {
+  color: #140D04;
+  font-family: Georgia, serif;
+  font-size: 1em;
+  background-color: white;
+  background-repeat: repeat;
+  /*margin-left: 200px;
+  margin-right: 200px;*/
+}
+
+nav a, .text_footer a, h2, h1 {
+  font-family: 'Lobster', cursive;
+
+}
+
+h2{
+  font-size: 1.6em;
+  color: #140D04;
+}
+
+h3{
+  font-family: 'Lobster Two', cursive;
+  font-size: 1.2em;
+  color: #140D04;
+}
+
+p, li{
+  color: #140D04;
+}
+
+#adahotel{
+  font-family: 'Lobster', cursive;
+}
+
+/*"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+""""""""""""""""""""""""""""""HEADER"""""""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""*/
+
+nav{
+  background-color:grey;
+  height: 30px;
+}
+
+nav li{
+  list-style: none;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px 0px;
+
+}
+
+nav a{
+  text-decoration: none;
+  font-size: 1.1em;
+  color: #140D04;
+}
+
+nav a:hover{
+  color: white;
+}
+
+
+.button_book a{
+  text-decoration: none;
+  color: grey;
+}
+
+
+.cover{
+  margin-top: 10px;
+  background-image: url(../images/hotel/adahotel_1.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 780px 400px;
+  height: 400px;
+  flex-direction: column;
+}
+
+.title{
+  text-align: center;
+  width: 50%;
+  font-size: 3em;
+  font-family: 'Lobster', cursive;
+  padding-top: 110px;
+  /* padding-bottom: 0px; */
+}
+.title h1{
+  text-shadow: 2px 0px 6px rgba(150, 150, 150, 1);
+}
+.title h2{
+  font-family: 'Lobster Two', cursive;
+  font-size: 0.6em;
+  padding-top: 25px;
+  padding-bottom: 20px;
+
+}
+
+#star img{
+  width: 30px;
+  height: 30px;
+}
+
+#star{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.button_reservation  {
+  background-color: grey;
+  border: 2px;
+  border-radius: 3px;
+  height: 45px;
+
+
+}
+
+.button_reservation h2{
+  text-align: center;
+  justify-content: middle;
+  padding: 8px;
+  margin-top: 3px;
+}
+.button_reservation a{
+  color: black;
+}
+/*"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+""""""""""""""""""""""""""""""AGENDA HOME"""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""*/
+
+
+.agenda{
+  background-color: grey;
+  display: flex;
+  justify-content: space-around;
+  padding: auto;
+  margin-bottom: 30px;
+  margin-top: 5px;
+  align-items: center;
+  height: 50px;
+}
+
+#calendar{
+  font-size: 1.8em;
+  vertical-align: middle;
+  margin: 8px;
+}
+
+input[type=date]{
+  background-color: rgba(240,234, 216);
+  text-align: right;
+  font-family: 'Lobster Two', cursive;
+  width: 200px;
+  height: 25px;
+  font-size: 1.1em;
+}
+
+label{
+  font-family: 'Lobster Two', cursive;
+  font-size: 1.2em;
+}
+
+.agenda p{
+  font-style: italic;
+  font-size: 0.9em;
+}
+
+.agenda_title{
+  line-height: 25px;
+  display: flex;
+}
+
+input[type=submit]{
+  background-color: #140D04;
+  text-align: center;
+  color: white;
+  font-family: 'Lobster Two', cursive;
+  font-size: 1.1em;
+  width: 120px;
+  height: 35px;
+
+}
+/*"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+""""""""""""""""""""""""""""""SLIDER PHOTO"""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""*/
+
+
+.slider_photos img{
+  width: 300px;
+  height: 300px;
+}
+
+.slider_photos{
+  text-align: center;
+  border: 3px black solid;
+  border-radius: 3px;
+  margin: 0px 30px 30px 30px;
+}
+
+
+/*"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+""""""""""""""""""""""""""""""MAIN chambre"""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""*/
+
+.title_page{
+  background-color: grey;
+  text-align: center;
+  margin: 30px;
+  border-radius: 5px;
+}
+
+.title_page h2{
+  vertical-align: middle;
+  padding: 10px 0px;
+}
+
+.top_title_room{
+  margin: 30px;
+  font-size: 1.2em;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1.5px #efefe5 dotted ;
+
+}
+
+.room{
+  display: flex;
+}
+
+.room_presentation {
+    border-radius: 5px 5px 5px 5px;
+    margin: 0px 30px;
+    height: 200px;
+    padding: 10px 20px;
+    background-color: #efefe5;
+    color: white;
+    font-size: 0.8em;
+    color: black;
+    line-height: 17px;
+    list-style: square;
+}
+
+.room_presentation p, .services_presentation p {
+    font-weight: bolder;
+    padding: 6px;
+}
+
+
+/*"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+""""""""""""""""""""""""""""""MAIN RESERVATION"""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""*/
+/* * FORMS */
+
+.reservationForm{
+  color: black;
+  background: rgba(255, 255, 255, 0.5);
+  border: 1px solid black;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-bottom: 40px;
+	padding-top: 20px;
+	margin: auto;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	width: 88%;
+}
+
+table {
+  border-collapse: collapse;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+td, th {
+  border: 1px solid black;
+	background-color: rgb(225,225,225);
+	padding: 37px;
+}
+
+td {
+  font-family: 'Barlow';
+  text-align: center;
+}
+
+th {
+  font-family: 'Advent Pro';
+
+}
+
+fieldset {
+  border: 1px solid grey;
+  border-radius: 3px;
+  background-color: rgb(253, 253, 253);
+  width: 89%;
+	margin: auto;
+  margin-top: 20px;
+	padding-bottom: 1.3rem;
+	padding-left: 20px;
+}
+
+textarea {
+	background-color: rgb(250, 250, 250);
+	margin-top: 0.4rem;
+	border: 0.5px solid #dcdcdc;
+	border-radius: 0.1rem;
+	font-family: courier;
+}
+
+legend {
+	margin-bottom: 1.5rem;
+}
+.center {
+	text-align: center;
+}
+
+.checkbox{
+  margin-left: 8px;
+}
+/* BUTTONS */
+
+.myButton {
+  box-shadow:inset 0px 1px 0px 0px #ffffff;
+  background:linear-gradient(to bottom, #f9f9f9 5%, #e9e9e9 100%);
+  background-color:#f9f9f9;
+  border-radius:15px;
+  border:1px solid #dcdcdc;
+  display:inline-block;
+  cursor:pointer;
+  color:#666666;
+  font-family:Arial;
+  font-size:15px;
+	text-align: center;
+  /* font-weight:bold; */
+  padding:6px 24px;
+	width: auto;
+  text-shadow:0px 1px 0px #ffffff;
+  margin: auto;
+}
+
+.myButton:hover {
+  background:linear-gradient(to bottom, #e9e9e9 5%, #f9f9f9 100%);
+  background-color:#e9e9e9;
+}
+
+.myButton:active {
+  position:relative;
+  top:1px;
+}
+input[type=text], input[type=checkbox], input[type=radio], input[type=email], input[type=tel], input[type=date], input[type=number], input[type=month] {
+  background: rgb(250, 250, 250);
+	border-radius: 0.1rem;
+	border: 0.5px solid #dcdcdc;
+	font-family: courier;
+	font-size: 0.8rem;
+}
+
+#nom_porteur {
+	width: 14rem;
+}
+
+
+
+/*"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+""""""""""""""""""""""""""""""MAIN SERVICES""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""*/
+
+
+.services_presentation {
+    border-radius: 5px 5px 5px 5px;
+    margin: 30px 30px;
+    height: 100%;
+    padding: 10px 20px;
+    background-color: #efefe5;
+    font-size: 0.8em;
+    color: black;
+    line-height: 17px;
+    list-style: square;
+    text-align: center;
+}
+
+
+/*"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+""""""""""""""""""""""""""""""MAIN LOCALISATION""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""*/
+
+.todo_list{
+  background-color: green;
+  border-radius: 8px;
+  height: 100%;
+  margin-left: 40px;
+  margin-top: 10px;
+  width: 400px;
+  padding: 20px;
+  text-align: center;
+  line-height: 30px;
+}
+
+.todo_list li{
+  list-style: decimal;
+  text-align: left;
+  padding-top: 5px;
+  padding-left: 5px;
+  margin-left: 20px;
+}
+
+.adress_suggestions{
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+
+.description_area{
+  padding : 4px;
+  margin: 30px;
+  border: 3px black solid;
+  border-radius: 3px;
+}
+
+.description_area h2{
+  padding-top: 17px;
+  padding-bottom: 17px;
+  text-align: center;
+}
+
+.description_area p{
+    padding-bottom: 17px;
+}
+
+/*"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+""""""""""""""""""""""""""""""MAIN CONTACT"""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""*/
+#contact_formular{
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+  line-height: 25px;
+}
+
+.text_contact{
+  flex-direction: column;
+  padding-right: 30px;
+  text-align: center;
+}
+
+
+/*"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+""""""""""""""""""""""""""""""DESCRIPTION & SERVICES"""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""*/
+
+#presentation{
+  display: flex;
+  margin-bottom: 0px;
+}
+
+.description{
+  width: 100%;
+  height: 100%;
+  padding : 4px;
+  margin: 30px;
+  border: 3px black solid;
+  border-radius: 3px;
+}
+
+.description h2{
+  padding-top: 17px;
+  padding-bottom: 17px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.speech{
+  text-align: left;
+  padding : 10px 50px 0px 50px;
+  line-height: 20px;
+  font-size: 0.8em;
+  margin-bottom: 64px;
+
+}
+
+.services{
+  background-color: #efefe5;
+  width: 40%;
+  height: 100%;
+  padding: 4px;
+  margin: 30px 0px 30px 30px;
+  border-radius: 3px;
+  text-align: left;
+  padding: 17px;
+}
+
+.services p{
+  margin: 17px 10px;
+  font-size: 0.9em;
+}
+
+i{
+  font-size: 0.9em;
+  margin : 0px 6px;
+}
+
+/*"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+""""""""""""""""""""""""""""""MAPS"""""""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""*/
+#find_us{
+  display: flex;
+  flex-direction: column;
+  margin: 30px 30px 30px 0px;
+  width: 30%;
+  font-size: 0.9em;
+
+}
+
+
+/*"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+""""""""""""""""""""""""""""""FOOTER"""""""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""*/
+
+
+#contact{
+  background-color: grey;
+  border-radius: 8px;
+  margin: 35px 0px;
+}
+
+#hotel_infos{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1em;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+#contact h3
+{
+  font-size: 1.3em;
+  padding-top : 8px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+#adahotel{
+  font-size: 1.2em;
+}
+
+
+
+.number_email{
+  padding-top: 19px;
+}
+
+.number_email p{
+  text-align: center;
+  font-size: 0.9em;
+  line-height: 13px;
+}
+
+.number_email a{
+  text-decoration: none;
+  color: #140D04;
+}
+
+.social img{
+  width: 17px;
+  height: 17px;
+  padding: 3px 5px 0px 5px;
+}
+
+.social li{
+  list-style: none;
+}
+
+.social {
+  display: flex;
+  align-content: center;
+  padding: 0px;
+  width: 10%;
+  padding-left: 30px;
+}

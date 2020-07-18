@@ -1,73 +1,189 @@
 <!DOCTYPE html>
+<html lang="fr" dir="ltr">
 
-<html>
-<head>
-	<meta charset="utf-8">
-	<title></title>
-    <link rel="stylesheet" href="assets/css/ni.css">
-    <link rel="shortcut icon" href="assets/image/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="/favicon.ico" type="image/x-icon">
-
-</head>
-<body>
-
-
-                <img class="cch" src="assets/image/hall.jpg" alt="nouvv"/>
-
-                <div>
-                   <p class="flotte"> ADA HOTEL chic et grand avec differente decoration dans chaque étage des halls magnifique des chambes de tout types et taille.</p>
-
-                </div>
-
-                  <img src="assets/image/couloir.jpg">
-                  <img class="cch"src="assets/image/hotell.jpg">
-
-        </div>
-    </div>
-    </div>
-	</header>
-
-    <p style="width: auto;  padding-top: 15px; padding-bottom: 15px; border: 10px solid blue; margin: 20px;">Situé au cœur de Paris, à seulement 100m de metro 8 Fedherbe-challigny, l'hôtel de luxe Hada hotel Paris  dispose d'un restaurant servant une cuisine française innovante ainsi que d'un bar, Le Grand Salon, proposant
-    des cocktails.
-    Décorées dans un style parisien classique, les chambres climatisées comportent un minibar, un port USB, une télévision à
-    écran plat ainsi qu'une connexion Wi-Fi gratuite. Elles comprennent également une salle de bains privative pourvue du chauffage au sol. En outre, certaines sont dotées de peignoirs et de chaussons.
-    un petit-déjeuner est servi tous les matins. L'établissement possède un salon exécutif où vous bénéficierez de rafraîchissements gratuits, de journaux et d'une connexion Wi-Fi moyennant un supplément.
-    ADA HOTEL Paris  compte une salle de sport, une réception ouverte 24h/24 ainsi que des salles de réunion.</P><br>
+	<head>
+		<meta charset="utf-8">
+			<link rel="stylesheet" href="assets/css/style.css">
+				<link href="https://fonts.googleapis.com/css?family=Lobster+Two|Lobster&display=swap" rel="stylesheet">
+					<script src="https://kit.fontawesome.com/39ca2ad730.js" crossorigin="anonymous"></script>
+						<link rel="shortcut icon" href="assets/images/icones/favicon.ico" type="image/x-icon">
+						<link rel="icon" href="assets/images/icones/favicon.ico" type="image/x-icon">
+							<title>ADA-hotel</title>
 
 
-    <footer>
+	</head>
 
-			<footer class="foot">
-			     <div style="background-color: #f4e536db; font-size:20px; padding: 20px; padding-left: 40px; margin: 60px; text-align: center; ">
-			         <div>adresse 60 rue de montreuil 75011</div>     <div>cantacte au 07 06 05 04 03</div>       <div>email:hotel01@gmail.com</div>
-			         <div >Copyrighets</div><div>Mentions légales</div><div class="fot"></div>
-			         <img src="assets/image/kayak.jpg"><img src="assets/image/BO.png"><img src="assets/image/fac.png">
-			    </div>
+	<body>
+				<div id="bloc_page">
+<!--/*"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+""""""""""""""""""""""""""""""HEADER"""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""-->
 
-				</footer>
+		<header>
+				<nav id="menu">
+					<ul>
+						<li><a href="index.html">Accueil</a></li>
+						<li><a href="chambres.html">Nos Chambres</a></li>
+						<li><a href="reservation.html">Réservation</a></li>
+						<li><a href="services.html">Nos Servives</a></li>
+						<li><a href="quartier.html">Localisation</a></li>
+						<li><a href="contact.html" target="blank">Nous Contacter</a></li>
+					</ul>
+				</nav>
+
+				<section class="cover">
+					<div class="title">
+						<h1>Adahotel</h1>
+							<h2>hôtel chic et haut de gamme</h2>
+					</div>
+							<div id="star">
+								  <img src="assets/images/hotel/star.png"/>
+									<img src="assets/images/hotel/star.png"/>
+									<img src="assets/images/hotel/star.png"/>
+							</div>
+
+				</section>
+
+				<div class="button_reservation">
+					<h2><a href="reservation.html">Réservez votre séjour en ligne</a></h2>
+				</div>
+
+		</header>
+
+<!--/*"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+""""""""""""""""""""""""""""""AGENDA RAPIDE RESERVATION"""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""-->
+  <main>
+			<div class="agenda">
+					<!--Commentaire : <img id="calendar" src="https://image.flaticon.com/icons/svg/809/809500.svg" alt="Disponibilités Adahotel"/>-->
+					<div class="agenda_title">
+
+								<i id="calendar" class="fas fa-history"></i>
+
+							<div>
+								<h2>Dates de votre séjour</h2>
+								<p>Découvrez nos chambres disponibles</p>
+							</div>
+					</div>
+
+					<form action="index.html" method="post">
+						<label >Arrivée </label><input type="date" name="" value="">
+						<label>Départ </label><input type="date" name="" value="">
+					</form>
+
+					<input type="submit" name="" value="Valider">
+			</div>
+
+<!--/*"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+""""""""""""""""""""""""""""""GALERIE PHOTOS"""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""-->
+
+			<div class="slider_photos">
+				<img id="cover" src="assets/images/hotel/adahotel_2.jpg"/>
+				<img id="cover" src="assets/images/hotel/adahotel_hall.jpg"/>
+				<img id="cover" src="assets/images/chambres/petit.jpg"/>
+				<img id="cover" src="assets/images/chambres/adahotel_clients.jpg"/>
+				<img id="cover" src="assets/images/chambres/chambre1.jpg"/>
+				<img id="cover" src="assets/images/services/adahotel_rooftop_2.jpg"/>
+			</div>
+
+<!--/*"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+""""""""""""""""""""""""""""""PRESENTATION & SERVICES"""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""-->
+
+	<section id="presentation">
+
+		<div class="services">
+
+			<h2>Nos services</h2>
+
+			<p><i class="fas fa-concierge-bell"></i><span>Réception 24/7</span></p>
+			<p><i class="fas fa-language"></i><span>Staff multilingue</span></p>
+			<p><i class="fas fa-child"></i><span>Garderie</span></p>
+			<p><i class="fas fa-seedling"></i><span>Produits locaux</span></p>
+			<p><i class="fas fa-bed"></i><span>Literie ultra confort</span></p>
+			<p><i class="fas fa-running"></i><span>Large choix d'activités</span></p>
+			<p><i class="fas fa-wifi"></i><span>Wi-Fi haut débit</span></p>
+			<p><i class="fas fa-mug-hot"></i><span>Enorme Petit-Déjeuner</span></p>
+			<p><i class="fas fa-binoculars"></i><span>Rooftop</span></p>
+			<p><i class="far fa-snowflake"></i><span>Climatisation</span></p>
+			<p><i class="fas fa-paw"></i><span>Animaux acceptés</span></p>
+
+		</div>
+
+		<div class="description">
+
+			<h2>ADA HOTEL</h2>
+
+			<div class="speech">
+
+				<p>Excellent choix pour les voyageurs visitant Mont-Saint-Michel, Le Relais du Roy offre un cadre familial et de nombreux services conçus pour sublimer votre séjour.
+
+				Les chambres comprennent une télévision à écran plat. L'hôtel met également à votre disposition un wi-fi gratuit.
+
+				L'établissement possède également un restaurant. Si vous vous rendez Le Relais du Roy en véhicule, n'hésitez pas à utiliser le parking.
+
+				Situé non loin de monuments tels que Abbaye du Mont-Saint-Michel (2,2 km) et Porte du Boulevard (2,2 km), Le Relais Du Roy Hotel jouit d'une localisation parfaite pour découvrir les différentes attractions de Mont-Saint-Michel.
+
+				Profitez-en pour faire un saut dans un des restaurants français comme L'Auberge de La Mère Poulard, Le Pré Salé et Restaurant Le Relais du Roy, tous non loin du Relais Roy.
+
+				Vous souhaitez explorer les environs ? Partez à la découverte du Barrage sur le Couesnon (0,3 km) et Maison Jehan Michel (1,0 km), autant d'attractions populaires de Mont-Saint-Michel situés à deux pas de l'hôtel.
+
+				Profitez bien de votre séjour à Mont-Saint-Michel!
+
+				Plus
+				 !</p>
+			</div>
+
+  	</div>
+
+
+<!--/*"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+""""""""""""""""""""""""""""""MAPS"""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""-->
+		<div id="find_us">
+
+				<div class="gmap_canvas">
+					<iframe width="350" height="400" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.644559548244!2d2.4049735146336175!3d48.86498790819784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66d835536653f%3A0xbed44391b3fe97f6!2s15%20Rue%20Martin%20Garat%2C%2075020%20Paris!5e0!3m2!1sfr!2sfr!4v1594909884484!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+					</iframe>
+				</div>
+				<style>.mapouter{position:relative;text-align:right;height:230px;width:350px;}.gmap_canvas {overflow:hidden;background:none!important;height:230px;width:350px;}</style>
+		</div>
+	</section>
+
+</main>
+
+
+	<!--/*"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+	""""""""""""""""""""""""""""""FOOTER"""""""""""""""""""""""""""""""""""
+	"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""-->
 
 
 
+<footer>
+	<section id="contact">
+					<div id="hotel_infos">
+							<div class="address">
+								<p id="adahotel">ADA HOTEL</p>
+								<p>15 Rue Martin Garat</p>
+								<p>75020 Paris</p>
+							</div>
+
+							<div class="number_email">
+								<p><a href="tel:0976898800">07.67.88.83.99</a><p>
+								<p><a href="mailto:lynda@adahotel.com">lynda@adahotel.com</a><p>
+
+								<ul class="social">
+									<li><a href="#"><img src="assets/images/social/facebook.png" alt="facebook_adahotel"/></a></li>
+									<li><a href="#"><img src="assets/images/social/instagram.png" alt="instagram_adahotel"/></a></li>
+									<li><a href="#"><img src="assets/images/social/twitter.png" alt="twitter_adahotel"/></a></li>
+								</ul>
+							</div>
+							<div >Copyrights<br>Lynda FERRI </div><div>Mentions légales<br> 2020</div>
+					</div>
+	</section>
+</footer>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </body>
-    </html>
+</body>
+</html>

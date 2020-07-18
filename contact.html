@@ -1,59 +1,119 @@
 <!DOCTYPE html>
-
-<html>
-    <head>
+<head>
 	<meta charset="utf-8">
-	<title>contact</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/ni.css">
-    </head>
-    <body>
-
-    <nav>
-    	<div class="menu">
-        <ul class="hotte">
-            <li><a href="index.html">Acceuil</a></li>
-            <li><a href="chambres.html">Chambres</a></li>
-            <li><a href="reservation.html">Reservation</a></li>
-            <li><a href="quartier.html">Quartier</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-        </div>
-    </nav>
-    <h1>Contact</h1>
-    <h2 class="x">Formulaire de contact</h2>
-
-    nom<input type="nom" name="" placeholder="nom"><br/>
-    prenom<input type="prenom" name="" placeholder="prenom"><br/>
-    adresse<input type="adresse" name="" placeholder="adresse">
-    ville<input type="ville" name="" placeholder="ville"><br/>
-    code postal<input type="code postal" name="" placeholder="code postal"><br/>
-    date<input type="date" name="date">
-    numéro de téléphone<input type="number" name="">
-    e-mail<input type="email" name="" value="" placeholder="email"><br/>
-
-    <textarea name="name"placeholder="commentaire" prows="3" cols="100"></textarea>
+		<link rel="stylesheet" href="assets/css/style.css">
+			<link href="https://fonts.googleapis.com/css?family=Lobster+Two|Lobster&display=swap" rel="stylesheet">
+				<script src="https://kit.fontawesome.com/39ca2ad730.js" crossorigin="anonymous"></script>
+					<link rel="shortcut icon" href="assets/images/icones/favicon.ico" type="image/x-icon">
+					<link rel="icon" href="assets/images/icones/favicon.ico" type="image/x-icon">
+						<title>ADAhotel.com</title>
 
 
+</head>
 
-    <footer >
-         <div style="background-color: #9E9E9E; font-size:20px; padding: 20px; padding-left: 40px; margin: 60px;  ">
-             <div>adresse 60 rue de montreuil 75011</div>     <div>cantacte au 07 06 05 04 03</div>       <div>email:hotel01@gmail.com</div>
-             <div >Copyrighets</div><div>Mentions légales</div><div class="fot"></div>
+<body>
+			<div id="bloc_page">
 
-             <div class="social-networks-icons outline">
-                <i class="fab fa-twitter-square fa-2x"></i>
-                <i class="fab fa-facebook-square fa-2x"></i>
-                <i class="fab fa-instagram-square fa-2x"></i>
-                <i class="fab fa-linkedin fa-2x"></i>
-              </div>
-        </div>
+<!--/*"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+""""""""""""""""""""""""""""""HEADER"""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""-->
+	<header>
+			<nav id="menu">
+				<ul>
+					<li><a href="index.html">Accueil</a></li>
+					<li><a href="chambres.html">Nos Chambres</a></li>
+					<li><a href="reservation.html">Réservation</a></li>
+					<li><a href="services.html">Nos Servives</a></li>
+					<li><a href="quartier.html">Localisation</a></li>
+					<li><a href="contact.html" target="blank">Nous Contacter</a></li>
+				</ul>
+			</nav>
+
+			<section class="cover">
+				<div class="title">
+					<h1>Adahotel</h1>
+						<h2>hôtel insolite et haut de gamme</h2>
+				</div>
+						<div id="star">
+							  <img src="assets/images/hotel/star.png"/>
+								<img src="assets/images/hotel/star.png"/>
+								<img src="assets/images/hotel/star.png"/>
+						</div>
+
+			</section>
+
+			<div class="button_reservation">
+				<h2><a href="reservation.html">Réservez votre séjour en ligne</a></h2>
+			</div>
+
+	</header>
+	<main>
+
+<!--/*"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+""""""""""""""""""""""""""""""TITRE PAGE"""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""-->
+		<div class="title_page">
+			<h2>Notre Formulaire de Contact</h2>
+		</div>
+
+<!--/*"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+""""""""""""""""""""""""""""""FORMAULAIRE CONTACT"""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""-->
+
+<section id="contact_formular">
+	<div class="text_contact">
+	<h2>Votre Avis compte pour Nous!</h2><br/>
+	<p>Une question sur les prestations de l'hotel ? Une mauvaise expérience ? Une remarque sur nos services ? Une envie particulière pour que votre prochain séjour soit fantastique ? </p><br/>
+	<p><em>Dîtes-nous tout ci-contre et laissez-nous vos coordonnées pour que nous puissions vous recontacter.</em></p>
+  </div>
+	<form class="" action="index.html" method="post">
+		<div id="identity">
+			<input type="text" name="" value="" placeholder="Votre Nom">
+			<input type="text" name="" value="" placeholder="Votre Prénom"><br/><br/>
+			<label>Numéro de téléphone : </label> <input type="tel" name="" value=""><br/>
+			<label>Votre email : </label><input type="email" name="" value="" placeholder="contact@gmail.com"><br/><br/>
+		</div>
+
+		<textarea class="formular" name="name" rows="10" cols="80" placeholder="J'ai une question, une remarque, etc..."></textarea>
+
+	<div class="send_button">
+		<input type="submit" name="" value="Envoyez"><br/>
+	</div>
+
+	</form>
+
+</section>
+</main>
 
 
-        
+<!--/*"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+""""""""""""""""""""""""""""""FOOTER"""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""-->
 
-      </footer>
+<footer>
+<section id="contact">
+				<div id="hotel_infos">
+						<div class="address">
+							<p id="adahotel">ADA HOTEL</p>
+							<p>15 Rue Martin Garat</p>
+							<p>75020 Paris</p>
+						</div>
+
+						<div class="number_email">
+							<p><a href="tel:0976898800">07.67.88.83.99</a><p>
+							<p><a href="mailto:lynda@adahotel.com">lynda@adahotel.com</a><p>
+
+							<ul class="social">
+								<li><a href="#"><img src="assets/images/social/facebook.png" alt="facebook_adahotel"/></a></li>
+								<li><a href="#"><img src="assets/images/social/instagram.png" alt="instagram_adahotel"/></a></li>
+								<li><a href="#"><img src="assets/images/social/twitter.png" alt="twitter_adahotel"/></a></li>
+							</ul>
+						</div>
+						<div >Copyrights<br>Lynda FERRI </div><div>Mentions légales<br> 2020</div>
+				</div>
+</section>
+</footer>
 
 
-    </body>
-    </html>
+</body>
+</html>
